@@ -1,0 +1,1 @@
+-i "$filepath" -c:v copy -c:a aac -f hls -hls_time 2 -hls_list_size 0 -hls_segment_filename "$directory\%8d.ts" "$directory\$playlist"
